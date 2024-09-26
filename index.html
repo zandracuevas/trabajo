@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #85064b;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header-image {
+            max-width: 150px;
+            height: auto;
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: #f7fc00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilos de las secciones */
+
+        /* Inicio */
+        #inicio {
+            background-color: #ccc8c8;
+            padding: 20px;
+        }
+
+        #inicio h2 {
+            color: #b22222;
+        }
+
+        /* Bibliografía */
+        #bibliografia {
+            background-color: #cce7ff;
+            padding: 20px;
+        }
+
+        #bibliografia h2 {
+            color: #1e90ff;
+        }
+
+        /* Mis Valores */
+        #valores {
+            background-color: #d4edda;
+            padding: 20px;
+        }
+
+        #valores h2 {
+            color: #28a745;
+        }
+
+        iframe {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Habilidades */
+        #habilidades {
+            background-color: #fff3cd;
+            padding: 20px;
+        }
+
+        #habilidades h2 {
+            color: #ffc107;
+        }
+
+        /* Proyectos */
+        #proyectos {
+            background-color: #e2e3e5;
+            padding: 20px;
+        }
+
+        #proyectos h2 {
+            color: #6c757d;
+        }
+
+        video {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Portafolio Visual */
+        #portafolio {
+            background-color: #f1e7fe;
+            padding: 20px;
+        }
+
+        #portafolio h2 {
+            color: #6f42c1;
+        }
+
+        .galeria {
+            display: flex;
+            gap: 15px;
+        }
+
+        .galeria img {
+            max-width: 200px;
+            height: auto;
+            object-fit: cover;
+        }
+
+        /* Contacto */
+        #contacto {
+            background-color: #f8d7da;
+            padding: 20px;
+        }
+
+        #contacto h2 {
+            color: #dc3545;
+        }
+
+        /* Descargas */
+        #descargas {
+            background-color: #d1ecf1;
+            padding: 20px;
+        }
+
+        #descargas h2 {
+            color: #17a2b8;
+        }
+
+        /* Estilo del pie de página */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* Estilos responsivos para móviles */
+        @media (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            .galeria {
+                flex-direction: column;
+            }
+
+            .galeria img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Zandra Cuevas Flores</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#bibliografia">Bibliografía</a></li>
+                <li><a href="#valores">Mis Valores</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#portafolio">Portafolio Visual</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#descargas">Descargas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <p>¡Hola! Bienvenidos a mi página web personal. Aquí encontrarás información sobre mis proyectos, habilidades y mucho más.</p>
+        <img src="foto.jpg" alt="Imagen de la cabecera" class="header-image">
+        <img src="upeu.jfif" alt="Imagen de la cabecera" class="header-image">
+        <img src="universidad.jfif" alt="Imagen de la cabecera" class="header-image">
+    </section>
+
+    <!-- Sección de Bibliografía -->
+    <section id="bibliografia">
+        <h2>Bibliografía</h2>
+        <p>Me llamo Zandra Cuevas Flores. Soy administradora de Negocios Internacionales con especialización en gestión financiera. Durante mi carrera, he trabajado en la gestión de proyectos financieros, proyectos de empadronamiento y SIS (SISFOH) y optimización de recursos empresariales para diversas compañías del sector privado y público. Con más de 7 años de experiencia en el área de administración y finanzas, he desarrollado habilidades sólidas en análisis financiero, planificación estratégica y gestión de recursos humanos.</p>
+    </section>
+
+    <!-- Sección de Mis Valores -->
+    <section id="valores">
+        <h2>Mis Valores</h2>
+        <ul>
+            <li>Integridad</li>
+            <li>Compromiso</li>
+            <li>Innovación</li>
+            <li>Trabajo en equipo</li>
+            <li>Responsabilidad</li>
+        </ul>
+
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/mkDMRFtwPW4" title="Canto Lema" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Desarrollo Web</li>
+            <li>Gestión de Proyectos</li>
+            <li>Resolución de Problemas</li>
+            <li>Trabajo en equipo</li>
+            <li>Gestión de Talento Humano</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <ul>
+            <li>Modernización del Sistema de Gestión Administrativa Municipal-Amantani</li>
+            <li>Programa de Presupuesto Participativo</li>
+            <li>Optimización de Recursos Financieros Municipales-Amantani</li>
+        </ul>
+
+        <video controls width="600">
+            <source src="niño.mp4" type="video/mp4">
+            <source src="mi_video.webm" type="video/webm">
+            <source src="mi_video.ogv" type="video/ogg">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </section>
+
+    <!-- Sección de Portafolio Visual -->
+    <section id="portafolio">
+        <h2>Portafolio Visual</h2>
+        <p>Aquí podrás ver algunos de los proyectos visuales en los que he trabajado:</p>
+        <div class="galeria">
+            <img src="viaje.jpg" alt="Proyecto 1">
+            <img src="deporte.jpg" alt="Proyecto 2">
+            <img src="recuerdo.jpg" alt="Proyecto 3">
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si deseas contactarme, puedes enviarme un correo a: <a href="mailto:cuevasfloreszandra@gmail.com">cuevasfloreszandra@gmail.com</a> o llamarme al 949117761.</p>
+
+        <a href="https://www.facebook.com/UPeUOficial?mibextid=ZbWKwL" target="_blank">
+            <img src="face.webp" alt="Perfil de Facebook" width="50">
+        </a>
+
+        <a href="https://wa.me/51949117748" target="_blank">
+            <img src="wap.jpeg" alt="Contactar por WhatsApp" width="50">
+        </a>
+    </section>
+
+    <!-- Sección de Descargas -->
+    <section id="descargas">
+        <h2>Descargas</h2>
+        <p>Aquí puedes descargar proyectos:</p>
+        <ul>
+            <li><a href="proyecto de sis.xlsx" download>Proyectosis</a></li>
+            <li><a href="ECONUTRIDELIVER.pdf" download>ProyectoEco</a></li>
+        </ul>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Zandra Cuevas Flores. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
